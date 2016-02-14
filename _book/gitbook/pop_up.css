@@ -1,0 +1,79 @@
+#social-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-section img {
+    max-width: 44px;
+}
+
+#parent_popup {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#popup {
+    background: #fff;
+    width: 400px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border: 5px solid #ddd;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 24px;
+    line-height: 24px;
+    right: -24px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    top: -24px;
+    width: 24px;
+    position: absolute;
+    padding: 0;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    font: 13px/20px 'Tahoma', Arial, sans-serif;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    -ms-transition: all ease .8s;
+    -o-transition: all ease .8s;
+    transition: all ease .8s;
+}
+
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
