@@ -3,6 +3,9 @@
         "addcssjs"
     ],
     "pluginsConfig": {
-        
+        "addcssjs": {
+            "css": ["custom/css/stylesheet.css"],
+            "js": ["custom/js/script.js"]
+        }
     }
 }
